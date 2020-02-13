@@ -18,6 +18,7 @@ div{
     text-align: justify;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     overflow:hidden;
+    margin-bottom: 40px;
 }
 section#conteudo{
     max-width:95vw;
@@ -34,6 +35,10 @@ section#conteudo{
 @media (max-width:900px){
     section#conteudo{
         column-count: 1;
+        width:100%;
+    }
+    div{
+        width:100%;
     }
 }
 section{
@@ -62,10 +67,9 @@ footer{
 b{
     color:black;
 }
-h1 h2 h3 h4{
+h1, h2, h3, h4{
     text-align: center;
     font-family: 'Verdana';
-    color:black;
 }
 h1{
     font-size:36pt;
