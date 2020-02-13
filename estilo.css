@@ -1,0 +1,245 @@
+body{
+    /*background-image: url("https://image.freepik.com/vetores-gratis/maos-terra_54199-310.jpg") opacity(50%);*/
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: #ccf;
+    display:block;
+    color: black;
+    font-size: 16pt;
+    margin:4px auto 4px auto;
+    font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+div{
+    break-inside: avoid-column;
+    background-color:rgba(0,0,0,0);
+    border-radius: 30px;
+    width:360px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    overflow:hidden;
+}
+section#conteudo{
+    max-width:95vw;
+    margin: 0px;
+    padding:70px;
+    column-count: 3;
+    background-color: white;
+}
+@media (max-width:1250px){
+    section#conteudo{
+        column-count: 2;
+    }
+}
+@media (max-width:900px){
+    section#conteudo{
+        column-count: 1;
+    }
+}
+section{
+    max-width:100%;
+}
+section#cabecalho{
+    width:100vw;
+    margin: auto;
+    padding:20px;
+    overflow:hidden;
+    background-color: darkblue;
+    color:white;
+}
+section#banner{
+    background-image: url(https://i.imgur.com/RtFiTYY.png);
+    height:10vw;
+    width:100vw;
+    background-position-y: bottom;
+}
+footer{
+    min-width:200px;
+    padding:40px;
+    display:block;
+    margin: auto;
+}
+b{
+    color:black;
+}
+h1 h2 h3 h4{
+    text-align: center;
+    font-family: 'Verdana';
+    color:black;
+}
+h1{
+    font-size:36pt;
+    font-family: 'Odibee Sans';
+}
+h2{
+    font-size: 20pt;
+}
+h3{
+    font-size: 18pt;
+}
+h4{
+    font-size: 16pt;
+}
+div p{
+    padding:10px;
+}
+section#conteudo p{
+    text-indent: 1cm;
+}
+p{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 60px;
+}
+li{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 60px;
+}
+img.logo{
+    max-height: 150px;
+    max-width: 90vmin;
+    float:left;
+    padding:20px;
+    display: block;
+}
+img.banner{
+    padding:10px;
+    margin:12px auto 12px auto;
+    max-width:600px;
+}
+img.imagemcapitular{
+    float:left;
+    max-height:50px;
+    padding:10px;
+}
+img.icone{
+    width:70px;
+}
+table{
+    border: solid 1px blue;
+    margin:auto;
+    border-radius: 4px;
+    background-color: #ffa;
+}
+th{
+    background-color: black;
+    color:#ffa;
+    border-radius: 4px;
+    padding: 4px;
+    margin:7px;
+}
+td{
+    border: solid 1px green;
+    text-align:center;
+    border-radius: 4px;
+    color: black;
+    background-color:#fff;
+    white-space:nowrap;
+    margin:7px;
+}
+tr.camp td{
+    background-color:gold;
+}
+tr.prom td{
+    background-color: #aaf;
+}
+tr.menos td{
+    color:red;
+}
+tr.reg td{
+    background-color: #faa;
+}
+tr.leg td{
+    font-size: 8pt;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:inherit;
+}
+input[type="button"]{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding: 10px 10px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#5c7cb2),
+		to(#365186));
+	background: linear-gradient(
+		top,
+		#5c7cb2 0%,
+		#365186);/**/
+	border-radius: 15px;
+	border: 1px solid #5c7cb2;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(087,087,087,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+section#menu ul{
+    list-style:none;
+}
+section#menu li{
+    min-width: 70px;
+    min-height: 70px;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+	padding: 10px 10px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#5c7cb2),
+		to(#365186));
+	background: linear-gradient(
+		top,
+		#5c7cb2 0%,
+		#365186);/**/
+	border-radius: 15px;
+	border: 1px solid #5c7cb2;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(087,087,087,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+li{
+    text-indent: 0px;
+}
+nav{
+    text-align:center;
+}
+span.datapublicacao{
+    text-indent: 0px;
+    font-size:10pt;
+}
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* alça */
+::-webkit-scrollbar-thumb {
+  background: darkblue; 
+  border-radius: 10px;
+}
+
+/* alça ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; 
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}*/
