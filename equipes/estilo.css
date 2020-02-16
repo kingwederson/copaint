@@ -1,0 +1,24 @@
+img.total{
+    width:90%;
+    max-width:360px;
+}
+@media (max-width:1400px){
+    column-count: 2;
+}
+table.partidaavulsa{
+    width:100%;
+    font-family: 'Arial Black';
+    margin:15px auto;
+}
+table td.placar{
+    font-size: 32pt;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+h1{
+    color:white;
+}
