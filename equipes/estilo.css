@@ -1,6 +1,7 @@
 img.total{
     width:90%;
     max-width:360px;
+    margin:auto;
 }
 @media (max-width:1400px){
     column-count: 2;
@@ -21,7 +22,4 @@ td{
 }
 h1{
     color:white;
-}
-body{
-    background-color: red;
 }
