@@ -22,3 +22,19 @@ td{
 h1{
     color:white;
 }
+img.total{
+    display: block;
+    margin: auto;
+}
+table.derrota td{
+    background-color: red;
+    color:white;
+}
+table.empate td{
+    background-color: yellow;
+    color:white;
+}
+table.vitoria td{
+    background-color: green;
+    color:white;
+}
