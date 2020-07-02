@@ -1,0 +1,57 @@
+img{
+    margin:auto;
+}
+table.rodadasJogos img{
+    margin:10px auto auto auto;
+}
+img.micro{
+    height: 24px;
+}
+img.mini{
+    height: 48px;
+}
+img.albaduz{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/albaduz.svg");
+}
+img.astro{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/astro.svg");
+}
+img.aurania{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/aurania.svg");
+}
+img.badenia{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/badenia.svg");
+}
+img.drax{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/drax.svg");
+}
+img.glader{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/glader.svg");
+}
+img.kelapan{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/kelapan.svg");
+}
+img.lanz{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/lanz.svg");
+}
+img.phalguna{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/phalguna.svg");
+}
+img.monarchs{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/monarchs.svg");
+}
+img.pegasus{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/pegasus.svg");
+}
+img.talmikan{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/talmikan.svg");
+}
+img.taurus{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/taurus.svg");
+}
+img.tusler{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/tusler.svg");
+}
+img.webbos{
+    content:url("C:/Users/Users/Documents/WEDERSON/HTML/pediludium/pic/webbos.svg");
+}

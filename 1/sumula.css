@@ -1,0 +1,143 @@
+body{
+    text-align:center;
+}
+table{
+    margin:auto;
+}
+table.quali th{
+    text-align: center;
+}
+table.quali td{
+    text-align:right;
+    min-width:30px;
+}
+table#rodadasRR{
+    margin:auto;
+}
+table#rodadasRR td{
+    text-align: center;
+}
+table.quali tr td:nth-child(1),
+table.quali tr td:nth-child(2),
+table.quali tr td:nth-child(3){
+    text-align:center;
+}
+div#alerta{
+    display:none;
+}
+table.quali tr:nth-child(2) td,
+table.quali tr:nth-child(3) td,
+table.quali tr:nth-child(4) td{
+    background: #bbf;
+}
+table.quali tr:nth-child(2):hover td,
+table.quali tr:nth-child(3):hover td,
+table.quali tr:nth-child(4):hover td{
+    background: #00f;
+    color:white;
+}
+table.quali tr:nth-child(5) td,
+table.quali tr:nth-child(6) td,
+table.quali tr:nth-child(7) td,
+table.quali tr:nth-child(8) td,
+table.quali tr:nth-child(9) td,
+table.quali tr:nth-child(10) td,
+table.quali tr:nth-child(11) td,
+table.quali tr:nth-child(12) td,
+table.quali tr:nth-child(13) td
+{
+    background: #bfb;
+}
+table.quali tr:nth-child(5):hover td,
+table.quali tr:nth-child(6):hover td,
+table.quali tr:nth-child(7):hover td,
+table.quali tr:nth-child(8):hover td,
+table.quali tr:nth-child(9):hover td,
+table.quali tr:nth-child(10):hover td,
+table.quali tr:nth-child(11):hover td,
+table.quali tr:nth-child(12):hover td,
+table.quali tr:nth-child(13):hover td{
+    background: #080;
+    color:white;
+}
+table.quali tr:nth-child(14) td,
+table.quali tr:nth-child(15) td,
+table.quali tr:nth-child(16) td,
+table.quali tr:nth-child(17) td{
+    background: #fbb;
+}
+table.quali tr:nth-child(14):hover td,
+table.quali tr:nth-child(15):hover td,
+table.quali tr:nth-child(16):hover td,
+table.quali tr:nth-child(17):hover td{
+    background: #f00;
+    color:white;
+}
+
+table.quali tr:nth-child(2) td:nth-child(1)::after{
+    content: '1';
+}
+table.quali tr:nth-child(3) td:nth-child(1)::after{
+    content: '2';
+}
+table.quali tr:nth-child(4) td:nth-child(1)::after{
+    content: '3';
+}
+table.quali tr:nth-child(5) td:nth-child(1)::after{
+    content: '4';
+}
+table.quali tr:nth-child(6) td:nth-child(1)::after{
+    content: '5';
+}
+table.quali tr:nth-child(7) td:nth-child(1)::after{
+    content: '6';
+}
+table.quali tr:nth-child(8) td:nth-child(1)::after{
+    content: '7';
+}
+table.quali tr:nth-child(9) td:nth-child(1)::after{
+    content: '8';
+}
+table.quali tr:nth-child(10) td:nth-child(1)::after{
+    content: '9';
+}
+table.quali tr:nth-child(11) td:nth-child(1)::after{
+    content: '10';
+}
+table.quali tr:nth-child(12) td:nth-child(1)::after{
+    content: '11';
+}
+table.quali tr:nth-child(13) td:nth-child(1)::after{
+    content: '12';
+}
+td{
+    border:1px solid black;
+    padding:0px 10px;
+    border-radius: 3px;
+    font-size:18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr.sempre th{
+    position:sticky;
+    top:0px;
+    background:white;
+}
+table.jogos td.cinza{
+    background-color: gray;
+    color: white;
+}
+table.jogos td.vit{
+    background-color: green;
+    color: white;
+}
+table.jogos td.emp{
+    background-color: yellow;
+    color: black;
+}
+table.jogos td.der{
+    background-color: red;
+    color: white;
+}table.esconde tr:nth-child(n) td:nth-child(12),
+table.esconde tr:nth-child(n) th:nth-child(11){
+    display:none;
+}
