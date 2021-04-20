@@ -4,7 +4,7 @@ function cabi(){
     var htmlcab = `
     <nav class="main" id="cabecalhoinfo">
         <a href="http://fut.wederson.net.br/">
-            <img src="fut.svg" class="logo">
+            <img src="http://fut.wederson.net.br/fut.svg" class="logo">
             <nav class="titulo"><span id="hie1">Tesla</span><br><span id="hie2">Soccer Cup</span></nav>
         </a>
         <nav id="menu">
